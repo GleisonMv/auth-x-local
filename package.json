@@ -1,10 +1,11 @@
 {
   "name": "auth-x-local",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "simple user auth for fast-auth-x",
   "scripts": {
-    "test": "tap ./test/test.js",
-    "test-ci": "tap ./test/test.js --cov --coverage-report=html",
+    "test": "tap ./test/*.js",
+    "test-2": "tape ./test/*.js",
+    "test-ci": "tap ./test/*.js --cov --coverage-report=html",
     "lint": "standard --verbose | snazzy",
     "lint-fix": "standard --fix",
     "lint-ci": "standard"
@@ -34,13 +35,11 @@
     "lib/*"
   ],
   "dependencies": {
-    "fast-auth-x": "^1.0.1",
-    "fastify-formbody": "^3.1.0",
     "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
-    "axios": "^0.18.0",
-    "fastify": "^2.3.0",
+    "fastify": "^2.4.1",
+    "fast-auth-x": "^1.1.1",
     "snazzy": "^8.0.0",
     "standard": "^12.0.1",
     "tap": "^13.1.2",

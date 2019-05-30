@@ -9,7 +9,7 @@ test('test headers', function (assert) {
   assert.notEqual(instance, undefined)
   assert.notEqual(instance.onUserCheck, undefined)
   instance.onUserCheck({}, function (err, isAuth) {
-    assert.notEqual(err, null)
+    assert.equal(isAuth, false)
     assert.end()
   })
 })
@@ -22,7 +22,7 @@ test('test headers.authorization', function (assert) {
   assert.notEqual(instance, undefined)
   assert.notEqual(instance.onUserCheck, undefined)
   instance.onUserCheck({ headers: {} }, function (err, isAuth) {
-    assert.notEqual(err, null)
+    assert.equal(isAuth, false)
     assert.end()
   })
 })

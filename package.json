@@ -1,6 +1,6 @@
 {
   "name": "auth-x-local",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "simple user auth for fast-auth-x",
   "scripts": {
     "test": "tap ./test/*.js",

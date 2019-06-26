@@ -1,5 +1,4 @@
 # Auth-X-Local
-[![Greenkeeper badge](https://badges.greenkeeper.io/GleisonMv/auth-x-local.svg)](https://greenkeeper.io/)
 [![Coverage Status](https://coveralls.io/repos/github/GleisonMv/auth-x-local/badge.svg?branch=master)](https://coveralls.io/github/GleisonMv/auth-x-local?branch=master)
 [![Build Status](https://travis-ci.org/GleisonMv/auth-x-local.svg?branch=master)](https://travis-ci.org/GleisonMv/auth-x-local)
 [![npm](https://img.shields.io/npm/v/auth-x-local.svg)](https://www.npmjs.com/package/auth-x-local)
